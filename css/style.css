@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    padding: 20vh;
+    background-color: #DAE0F5;
+}
+.tuDuApp_head{
+    background-color: #A879E2;
+    border-radius: .3rem;
+    width: 30%;
+    padding: 1rem 1.5rem;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #fff;
+}
+.icon{
+    float: left;
+    cursor: pointer;
+}
+.toDoApp{
+    display: none;
+    position: relative;
+    background-color: #fff;
+    width: 30%;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: 0 0 5px black;
+}
+
+.add{
+    background-color: #A879E2;
+    position: absolute;
+    bottom: -1.5rem;
+    left: 0;
+    right: 0;
+    border-radius: 2rem;
+    width: 50%;
+    margin: auto;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+}
+form{
+    margin-bottom: 1rem;
+    display: none;
+}
+
+form input{
+    width: 100%;
+    padding: 5px 10px;
+}
+form button{
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #A879E2;
+    border-radius: 5px;
+    border: 3px dotted rgb(132, 0, 255);
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #fff;
+}
+
+.todo__item{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+}
+.edit__wrapper{
+    font-size: 1rem;
+}
+ .fa-pen{
+     cursor: pointer;
+ }
